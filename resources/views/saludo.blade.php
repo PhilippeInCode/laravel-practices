@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Welcome view</title>
+    <title>Saludo</title>
 </head>
 <body>
-    <h1>Bienvenido a Laravel</h1>
-    <p>Esta es una vista creada con blade</p>
+    <h1>¡Hola, {{ $nombre }}!</h1>
 </body>
 </html>
